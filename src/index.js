@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Basic from './Basic';
+// import Basic from './Basic';
 import './styles.css';
 const axios = require('axios');
 
@@ -38,7 +38,7 @@ class App extends React.Component {
 				<h1>
 					Hello, {this.state.number} {this.props.name}
 				</h1>
-				<Basic />
+				{/* <Basic /> */}
 			</div>
 		);
 	}
